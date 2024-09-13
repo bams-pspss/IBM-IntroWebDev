@@ -7,3 +7,31 @@ In this lab, you will be creating a simple web page Unit Converter application t
 
 
 ## Reflect
+`<header> </header>` 
+- Elements represent a container for introductory content
+- Typically contains:
+    - `<h1> <h6>`
+    - Logo or Icon
+    - Authorship information
+
+`<nav> </nav>`
+- defines a set of navigation links
+
+`<article> </article>`
+- Specifies independent, self-contained content
+- Article should make sense on its own
+
+`<section> </section>`
+- defines a section in a document
+
+`<figure> </figure>`
+- self-contained content, like illustrations, diagrams, photos, etc
+
+`<figcaption>`
+- Caption for the photo
+
+`<footer> </footer>`
+- End of the page
+
+`<aside> </aside>`
+- Some content aside from the content it is placed in
