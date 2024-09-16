@@ -1,0 +1,19 @@
+body{
+    margin: 5%;
+    background-color: #581F18;
+    font-family: monospace;
+}
+#home header {
+    font-size: 90px;
+    text-align: center;
+    color: #F0A202;
+}
+
+#home button {
+    font-family: monospace;
+    background-color: #F18805;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
