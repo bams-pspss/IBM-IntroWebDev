@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pattarwawan Saravaneeyawong - Project</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Pattarwawan Saravaneeyawong
+          <div class="contact_info">
+            <img src="./img/mail.png" alt="mail icon"/>
+            bams.pattarawan@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="./img/phone.webp" alt="phone icon"/>
+          +1 (437) 662 - 3501
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="./img/chicken.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Pattarawan Saravaneeyawong!
+          <p>
+            Hello! My name is Pattarawan! This is my course in Coursera and it is really fun for me! </br></br>
+            Eventhough I did not get to done this final project in time, because I got distract with 
+            css and I want to style it neatly so bad 🤣. </br></br>
+            At last, I still complete this project!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="./img/html.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="./img/css.png"/>
+            <h6>CSS</h6>
+            <p>3 years experience</p>
+          </div>  
+
+        <div class="skill">
+          <img src="./img/javascript.webp"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+        <div class="skill">
+          <img src="./img/CPP.png"/>
+          <h6>C++</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+          <img src="./img/C.webp"/>
+          <h6>C</h6>
+          <p>3 years experience</p>
+        </div>  
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Chicken</h3>
+            <ul>
+              <li>Chicken animation, that is the profile picture right now!</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Game</h3>
+            <ul>
+              <li>Develop a game similia to Survivor.io, by using a GoDot</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Jewelry Website</h3>
+            <ul>
+              <li>Design and create website for a Jewelry shop in Thailand</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I think I am a fast learner and I want to learn new things and new technology.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Lately, I have been working on how to solve Rubik's Cube. It take me 2 hours to learn it!
+          Finally, I can do the beginner solving Rubik! The next thing I will do is solving the Rubik, but 
+          faster!
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          And currently, I anm also study GoDot, to make a game one day!
+          My goal is to make an indie game where you combine farming and chatting with friends, 
+          like animal crossing, but more free like the Sims plus minecraft.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            My game inspiration is combination of Minecraft, the Sims, and some combat like God of War, plus
+            a little bit of Little Big Planet.
+            <span>&#8221;</span>
+          </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="./img/check.png"/>
+      <h3>Thank you for leaving your recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
