@@ -1,9 +1,9 @@
 ## 🕸️ IBM - Introduction to Web Development with HTML, CSS, JavaScript
 - [x] Module 1
 - [x] Module 2
-- [ ] Module 3
-- [ ] Module 4
-- [ ] Module 5
+- [x] Module 3
+- [x] Module 4
+- [x] Module 5
 </br>
 Course:
 https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript
