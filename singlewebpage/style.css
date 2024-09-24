@@ -105,6 +105,11 @@ body {
     color: rgb(128, 128, 128);
     margin-top: 10px;
   }
+
+  #about-me img {
+    width: 40vw;
+    height: auto;
+  }
   
   .profile_image {
     width: 550px;
